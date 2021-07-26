@@ -133,11 +133,8 @@ export function TaskItem({ task, toggleTaskDone, removeTask, editTask }: TaskIte
                         onChangeText={setValueTaskEdit}
                         editable={taskIsEditing}
                         onSubmitEditing={handleSubmitEditing}
+                    />
 
-
-                    >
-                        {task.title}
-                    </TextInput>
                 </TouchableOpacity>
             </View>
 
